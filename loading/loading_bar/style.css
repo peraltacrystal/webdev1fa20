@@ -17,7 +17,7 @@ h1 {
     border: 1px solid yellowgreen;
     border-radius: 10px;
     box-shadow: 10px 0px 15px 0px yellowgreen;
-    animation: turn 4s linear 1.75s infinite;
+    animation: turn 4s linear 1.75s;
 }
 .loader .loading_1:before {
     content: "";
@@ -27,7 +27,7 @@ h1 {
     height:100%;
     background-color: yellowgreen;
     box-shadow: 10px 0px 15px 0px yellowgreen; 
-    animation: load 2s linear infinite;
+    animation: load 2s forwards;
 }
     .loader .loading_2 {
         position: absolute;
@@ -36,7 +36,7 @@ h1 {
         color: white;
         font-size: 22px;
         text-align: center;
-        animation: bounce 2s linear infinite;
+        animation: bounce 2s;
     }
     @keyframes load { 
         0% { 
