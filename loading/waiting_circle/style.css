@@ -1,0 +1,21 @@
+.loader {
+   border-top: 16px solid rgb(19, 102, 122);
+    border-right: 16px solid rgb(0, 13, 128);
+    border-bottom: 16px solid rgb(58, 9, 99);
+    border-left: 16px solid rgb(192, 255, 224);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  body {
+      background-color: rgb(212, 208, 208);
+  }
+  h1{
+      color: white;
+      font-family: monospace;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
