@@ -1,11 +1,19 @@
-h1{
-    color: blue
+html {
+  font-size: 24px;
+  font-family: quicksand;
 }
-@media only screen and (max-width: 800px) {
-    body {
-      background-color: orchid;
-    }
-    h1{
-        color:darkcyan;
-    }
-  }
+div {
+  margin: 20px;
+}
+
+.vmin {
+  background: pink;
+  width: 100vmin;
+  height: 100vmin;
+}
+
+.vmax {
+  background: plum;
+  width: 50vmax;
+  height: 50vmax; 
+}
