@@ -1,6 +1,8 @@
 h1{
-    color:palevioletred
+    color:palevioletred;
+    text-align: center;
+    font-size: 70px;
 }
 img {
-    max-width: 100px;
+    max-width: 250px;
 }
