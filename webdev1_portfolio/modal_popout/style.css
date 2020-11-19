@@ -31,7 +31,7 @@
   
   .close:hover,
   .close:focus {
-    color:blueviolet;
+    color:rgb(163, 112, 211);
     text-decoration: none;
     cursor: pointer;
   }
