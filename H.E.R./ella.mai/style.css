@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://2dopeboyz.com/wp-content/uploads/2020/10/ella-mai-not-another-love-song-video.jpg);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  h1 {
+      color: white;
+      text-align: center;
+  }
