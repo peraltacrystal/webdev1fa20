@@ -4,6 +4,20 @@ body {
 h1 {
     text-align: center;
     color: white;
-
-    
+    font-size: 50pt;   
 }
+p{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+img{
+height: 300px;
+width: 600px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
