@@ -11,3 +11,6 @@ body {
       color: white;
       text-align: center;
   }
+ p {
+     background-color:teal;
+ }

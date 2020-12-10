@@ -21,3 +21,7 @@ width: 600px;
     margin-right: auto;
     width: 50%;
   }
+  a {
+      font-family: monospace;
+      font-size: 15pt;
+  }
