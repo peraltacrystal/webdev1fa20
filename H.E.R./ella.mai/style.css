@@ -10,7 +10,19 @@ body {
   h1 {
       color: white;
       text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
- p {
-     background-color:teal;
- }
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .info-text {
+    line-height: 1.5em;
+    padding: 1em;
+    color: white;
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
+  width: 100vw;
+  max-width: 400px;
+  margin: 0 auto;
+
+}
