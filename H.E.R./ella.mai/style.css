@@ -32,3 +32,7 @@ audio {
   right: 0;
   transform: scale(.75);
 }
+a {
+  font-family: monospace;
+  font-size: 15pt;
+}
