@@ -4,8 +4,12 @@ body {
 h1 {
     text-align: center;
     color: white;
-    font-size: 50pt;   
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e69d007c, 0 0 20px #e69d007c, 0 0 25px #e69d007c, 0 0 30px #e69d007c, 0 0 35px #e69d007c;
 }
+
 img{
 height: 300px;
 width: 600px;
@@ -19,6 +23,7 @@ width: 600px;
   a {
       font-family: monospace;
       font-size: 15pt;
+      color: #e69d007c;
   }
 
   p { 
@@ -26,37 +31,23 @@ width: 600px;
   }
 
   .info-text {
-      line-height: 1.5em;
-      padding: 1em;
-      color: white;
+    line-height: 1.5em;
+    padding: 1em;
+    color: white;
     text-align: center;
     text-shadow: 2px 2px 1px black;
     width: 100vw;
     max-width: 400px;
     margin: 0 auto;
+}
 
+  .her {
+      display: none;
   }
-
-  audio {
-      position: fixed;
-      top: 0;
-      right: 0;
-      transform: scale(.75);
-  }
-
-  /*
-audio::-webkit-media-controls-mute-button { display: none}
-audio::-webkit-media-controls-play-button { display: block}
-audio::-webkit-media-controls-timeline-container { display: none}
-audio::-webkit-media-controls-current-time-display { display: none}
-audio::-webkit-media-controls-time-remaining-display { display: none}
-audio::-webkit-media-controls-timeline { display: none}
-audio::-webkit-media-controls-volume-slider-container { display: none}
-audio::-webkit-media-controls-volume-slider { display: none}
-audio::-webkit-media-controls-seek-back-button { display: none}
-audio::-webkit-media-controls-seek-forward-button { display: none}
-audio::-webkit-media-controls-fullscreen-button { display: none}
-audio::-webkit-media-controls-rewind-button { display: none}
-audio::-webkit-media-controls-return-to-realtime-button { display: none}
-audio::-webkit-media-controls-toggle-closed-captions-button { display: none}
-*/
+.play-button {
+    position: fixed;
+    top: 2vmin;
+    right: 2vmin;
+    z-index: 100;
+    background: white;
+}
