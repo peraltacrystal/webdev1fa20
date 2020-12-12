@@ -21,8 +21,8 @@ width: 600px;
     width: 50%;
   }
   a {
-      font-family: monospace;
-      font-size: 15pt;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 20pt;
       color: #e69d007c;
   }
 
@@ -49,5 +49,5 @@ width: 600px;
     top: 2vmin;
     right: 2vmin;
     z-index: 100;
-    background: white;
+    color: #e69d007c;
 }
